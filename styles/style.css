@@ -20,6 +20,11 @@ body{
     justify-content: center;
 }
 
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-j-between{
     display: flex;
     justify-content: space-between;
@@ -61,20 +66,22 @@ body{
 }
 
 .column-70{
-    background-color: #20b1a9 ;
     width: 70%;
     height: 500px;
 }
 
 .column-30{
-    background-color: #ef7f7f;
+    margin-right: ;
+    font-size: 2rem;
+    color: white;
     height: 500px;
     width: 30%;
 }
 
 .column-quarters{
-    border: 2px dashed white;
+    color: white;
     width: calc(100% / 4);
+    line-height: 3rem;
 }
 
 

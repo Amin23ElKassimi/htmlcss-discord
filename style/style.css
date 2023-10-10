@@ -31,16 +31,8 @@ body{
     margin: 0 auto;
 }
 
-.jumbo-container{
-    max-width: 700px;
-    /* width: 50% */
-    margin: 0 auto;
-}
 
-.dotted-test{
-    border: 2px dashed black;
-}
-
+/* Columns */
 .columns{
     padding: 3rem 0;
 }
@@ -50,7 +42,6 @@ body{
 }
 
 .column-big{
-    background-color: #1e8ffe;
     width: 60%;
 }
 
@@ -83,17 +74,9 @@ body{
 }
 
 
-
-.bg-white{
-    background-color: white;
-}
-
-.bg-grey{
-    background-color: #d2d2d2;
-}
-
+/* Header */
 header{
-    background-color: #acd7e5;
+    background-color: #4161df;
     padding: 0 0 .25rem;
 }
 
@@ -137,20 +120,39 @@ section.navigation  nav ul li{
 section.navigation div.login{
     text-align: right;
 }
+/* Jumbo */
+
+.jumbo-container{
+    max-width: 600px;
+    /* width: 50% */
+    margin: 0 auto;
+}
 
 
-section#jumbo{
-    /* height: 300px; */
-    background-image: url(/img/jumbo.png);
-    padding: 3rem 0;
-    position: ;
+#jumbo{
+    background-color: #228a22;
+
 }
 
 div.jumbotron{
     height: 300px;
     background-color: #ed81ed;
+    text-align: center;
 }
 
+.jumbotron > h1 {
+    padding-bottom: 2rem ;
+}
+
+span.download-mac{
+    background-color: #1e8ffe;
+    margin: 2rem;
+}
+
+/* Section 01 */
+
+
+/* Footer */
 footer{
     background-color: #23272a;
 }
@@ -170,4 +172,25 @@ div.button{
     background-color: #feb5c0;
     height: 2rem;
     padding: .25rem .5rem;
+}
+
+
+/*Text Colors */
+
+.txt-white{
+    color: white;
+
+}
+
+/* Background Colors  */
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #d2d2d2;
+}
+
+.dotted-test{
+    border: 2px dashed black;
 }

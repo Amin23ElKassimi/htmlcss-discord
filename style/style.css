@@ -130,8 +130,7 @@ section.navigation div.login{
 
 
 #jumbo{
-    background-color: #228a22;
-
+    background-image: url(/img/jumbo.png);
 }
 
 div.jumbotron{

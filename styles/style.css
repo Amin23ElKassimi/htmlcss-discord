@@ -34,6 +34,9 @@ body{
     justify-content: space-around;
 }
 
+a{
+    text-decoration: none;
+}
 
 .container{
     max-width: 1050px;
@@ -92,7 +95,6 @@ header{
 
 section.navigation{
     padding: .8rem 0;
-    background-color: #4161df;
 }
 
 
@@ -162,26 +164,12 @@ section.navigation  nav ul li{
     font-size: 3rem;
 }
 
-/* span.download-mac{
-    color: black;
-    border-radius: 20px;
-    padding: 0.5rem 1.5rem;
-    background-color: white;
-    margin: 2rem;
-}
-span.open-browser{
-    color: white;
-    border-radius: 20px;
-    padding: 0.5rem 1.5rem;
-    background-color: black;
-    margin: 2rem;
-} */
 
 /* Section 01 */
 
 #testo-sezion01{
     padding-top: 2rem;
-    padding-left: 3rem;
+    padding-left: 6rem;
 }
 /* Section 02 */
 
@@ -260,17 +248,32 @@ section.links{
 }
 
 div.button{
-    background-color: #feb5c0;
     height: 2rem;
     padding: .25rem .5rem;
 }
 
+img.icon-flag {
+    height: 1rem;
+    width: auto;
+}
 
 /*Text Colors */
 
 .txt-white{
     color: white;
 
+}
+
+.txt-blu{
+    color: #4161df;
+}
+
+/* Font Size */
+.txt-larger{
+    font-size: larger;
+}
+.txt-small{
+    font-size: 1rem;
 }
 
 /* Background Colors  */

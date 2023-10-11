@@ -89,7 +89,7 @@ a{
 
 /* Header */
 header{
-    /* background-color: #4161df; */
+    background-color: #4161df;
     padding: 0 0 .25rem;
 }
 
@@ -237,10 +237,10 @@ footer{
 }
 
 div.footer-divider{
-    background-color: white;
+    background-color: rgb(35, 105, 236);
     height: 1px;
-    width: 100%;
-    margin: 2rem 0;
+    width: 50%;
+    margin: 2rem 20rem;
 }
 
 section.links{

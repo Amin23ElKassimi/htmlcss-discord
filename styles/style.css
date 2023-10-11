@@ -71,7 +71,6 @@ body{
 }
 
 .column-30{
-    margin-right: ;
     font-size: 2rem;
     color: white;
     height: 500px;
@@ -163,7 +162,7 @@ section.navigation  nav ul li{
     font-size: 3rem;
 }
 
-span.download-mac{
+/* span.download-mac{
     color: black;
     border-radius: 20px;
     padding: 0.5rem 1.5rem;
@@ -176,17 +175,72 @@ span.open-browser{
     padding: 0.5rem 1.5rem;
     background-color: black;
     margin: 2rem;
-}
+} */
 
 /* Section 01 */
-#id .{
-    font-size: 2rem;
-    padding-bottom: 2rem;
-}
 
 #testo-sezion01{
     padding-top: 2rem;
-    text-align: end;
+    padding-left: 3rem;
+}
+/* Section 02 */
+
+#testo-sezion02{
+    padding-left: 4rem;
+}
+
+/* Section 04 */
+
+#testo-sezion04{
+    text-align: center;
+}
+
+.bg-image{
+    background-image: url(../img/stars.svg);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 0 auto 2rem;
+    width: 50%;
+    padding-top: 2rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.button-ble {
+    color: white;
+    background-color: #92a1e1;
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.button-white {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.button-sign {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.open-browser{
+    color: white;
+    background-color:#1f1f3c;
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
 }
 
 /* Footer */
